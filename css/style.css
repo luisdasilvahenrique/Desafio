@@ -42,7 +42,7 @@ a:hover{
 #btn-mobile{
   display: none;
 }
-
+/* responsive mobile */
 @media (max-width: 600px){
   #btn-mobile{
     display: block;
@@ -102,4 +102,38 @@ a:hover{
     transform: rotate(-135deg);
     top: -7px;
   }
+  
+}
+
+/* principal(main do site) */
+
+main.container{
+  display: flex;
+  font-size: 1rem; 
+  font-family: sans-serif;
+
+  /* justify-content: space-between; */
+}
+
+section#content{
+  padding: .5rem; 
+}
+
+div#text{
+  height: 50%;
+  width: 60%;
+
+}
+
+section#content #text p{
+  text-align: justify;
+  text-indent: 50px;
+  border: 2px solid red;
+
+}
+
+/* img */
+div#img{
+  padding-top: 2rem;
+  
 }
